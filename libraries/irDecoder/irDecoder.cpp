@@ -2,7 +2,12 @@
 /*****************************************************************************************/
 /* A simple IR decoder for Arduino
 /*****************************************************************************************/
-/* Robert Bakker 2013
+/* Copyright (c) Robert Bakker 2013
+/*
+/* This file is free software; you can redistribute it and/or modify
+/* it under the terms of either the GNU General Public License version 2
+/* or the GNU Lesser General Public License version 2.1, both as
+/* published by the Free Software Foundation.
 /*****************************************************************************************/
 /* This library handles polling and decoding of the signal from an IR remote.
 /* It is non-blocking code that executes in the background while your sketch
