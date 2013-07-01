@@ -1,19 +1,19 @@
 
-/*****************************************************************************************/
-/* A simple IR decoder for Arduino
-/*****************************************************************************************/
-/* Copyright (c) Robert Bakker 2013
-/*
-/* This file is free software; you can redistribute it and/or modify
-/* it under the terms of either the GNU General Public License version 2
-/* or the GNU Lesser General Public License version 2.1, both as
-/* published by the Free Software Foundation.
-/*****************************************************************************************/
-/* This library handles polling and decoding of the signal from an IR remote.
-/* It is non-blocking code that executes in the background while your sketch
-/* does it's thing.
-/* The ir decoder works only for the Phillips RC-5 protocol.
-/*****************************************************************************************/
+/******************************************************************************************
+ * A simple IR decoder for Arduino
+ * 
+ * Copyright (c) Robert Bakker 2013
+ *
+ * This file is free software; you can redistribute it and/or modify
+ * it under the terms of either the GNU General Public License version 2
+ * or the GNU Lesser General Public License version 2.1, both as
+ * published by the Free Software Foundation.
+ ******************************************************************************************
+ * This library handles polling and decoding of the signal from an IR remote.
+ * It is non-blocking code that executes in the background while your sketch
+ * does it's thing.
+ * The ir decoder works only for the Phillips RC-5 protocol.
+ *****************************************************************************************/
 
 #ifndef irDecoder_h		// Include guard
 #define irDecoder_h
